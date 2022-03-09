@@ -1,0 +1,314 @@
+* {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(32, 32, 32);
+}
+
+html,
+body,
+div,
+span,
+img,
+ol,
+ul,
+li,
+article,
+aside,
+header,
+a,
+h1,
+h2,
+h3,
+p,
+span {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 770px;
+}
+
+body {
+  max-width: 375px;
+  background-color: rgb(237, 237, 238);
+  margin: 0 auto;
+  border: 2px solid black;
+  height: 100%;
+  line-height: 2;
+}
+
+.nav-intro {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+.nav-coupon {
+  display: flex;
+  /* background-color: red; */
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.coupon-left button {
+  background-color: rgb(26, 109, 187);
+  width: 100px;
+  height: 28px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 800;
+  margin-left: 10px;
+  margin-right: 5px;
+  color: aliceblue;
+}
+
+.coupon-left span {
+  font-size: 14px;
+  font-weight: 900;
+}
+
+.barcode {
+  width: 100px;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+.call {
+  width: 30px;
+}
+button {
+  border: none;
+}
+
+.barcode {
+  width: 100px;
+  margin-top: 3px;
+  /* border: 1px solid rgb(255, 255, 255); */
+  border-radius: 10px;
+}
+.layout-pay {
+  width: 100%;
+  background: #ebeaea;
+  height: 100%;
+}
+.pay-up {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.pay-up-left {
+  width: 27%;
+  height: 90px;
+  background: #ebeaea;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+.pay-up-left > button > img {
+  width: 45px;
+  height: 45px;
+  margin-left: 37px;
+}
+
+.pay-up-right {
+  width: 60%;
+  background: #ebeaea;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+.pay-up-left > div {
+  width: 200px;
+
+  /* background: yellow; */
+}
+
+.pay-up-left > div > label {
+  font-size: 12px;
+  width: 300px;
+  /* border: 1px solid black; */
+  font-weight: 900;
+  margin-left: 10px;
+}
+
+.pay-up-left > div > button > img {
+  margin-left: 30px;
+}
+
+.pay-up-right > div > label {
+  font-size: 12px;
+  font-weight: 900;
+  margin-left: 10px;
+}
+.pay-up-right > button {
+  font-size: 35px;
+  font-weight: 700;
+  /* background-color: red; */
+  margin-left: 80px;
+  margin-top: 5px;
+}
+
+.pay-down {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.pay-down > div {
+  width: 100px;
+  height: 100px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 10px;
+}
+.pay-down > div > p {
+  text-align: end;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.pay-down > div > button > img {
+  width: 35px;
+}
+.recent-list,
+.recent-menu {
+  /* background: red; */
+  width: 100%;
+  height: 130px;
+  /* margin-bottom: 10px; */
+}
+
+.list-lable {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.menu-lable {
+  display: flex;
+  justify-content: space-between;
+  /* background: red; */
+}
+
+.list-lable > img {
+  width: 40px;
+  margin-right: 20px;
+}
+
+.list-lable > div > label,
+.menu-lable > div > label {
+  font-size: 12px;
+  width: 300px;
+  /* border: 1px solid black; */
+  font-weight: 900;
+  margin-left: 10px;
+}
+
+.list-lable > div:last-child {
+  margin-right: 10px;
+}
+
+.list-container > div {
+  margin-left: 20px;
+  margin-top: 10px;
+  padding-top: 5px;
+  width: 330px;
+  height: 70px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+.infor-pay {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.infor-pay > div > p {
+  background-color: rgb(130, 130, 238);
+  width: 70px;
+  font-size: 13px;
+}
+
+.infor-date > div {
+  font-size: 12px;
+}
+
+.infor-pay > div {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.infor-date {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.menu-lable {
+  display: flex;
+}
+
+.infor-menu {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.recent-menu > div > label {
+  font-size: 12px;
+  width: 300px;
+  font-weight: 900;
+  margin-left: 10px;
+}
+
+.infor-menu > div > button > img {
+  width: 90px;
+  /* border: 1px solid red; */
+  margin-top: 10px;
+}
+
+.infor-menu > div > p {
+  align-items: center;
+  /* background: rgb(255, 255, 255); */
+  font-size: 12px;
+  text-align: center;
+}
+
+.footer-navigation {
+  /* border: 1px solid black; */
+  width: 100%;
+  margin-top: 50px;
+}
+
+.nav-container {
+  background: rgb(255, 255, 255);
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav-container > div > a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.home > img,
+.paypay > img,
+.order > img,
+.my > img {
+  width: 20px;
+  /* border: 1px solid red; */
+}
+
+.paypay > a,
+.order > a,
+.my > a {
+  color: rgb(190, 190, 190);
+}
